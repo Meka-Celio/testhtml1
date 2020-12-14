@@ -1,0 +1,70 @@
+/* -------------------------------------
+Zoning
+--------------------------------------- */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background-image: url('../images/bg.jpg');
+	background-size: cover;
+}
+
+header, main, footer, section {
+	padding-top: 15px;
+	padding-bottom: 20px;
+}
+
+.filtre {
+	width: 100%;
+	background-color: #00000078;
+}
+
+.conteneur {
+	width: 1220px;
+	margin: 0 auto;
+}
+
+header .ligne {
+	display: flex;
+	justify-content: space-between;
+}
+
+.branding {
+	padding-top: 10px;
+}
+
+.navigation {
+	padding: 8px 10px;
+}
+
+.navlist {
+	list-style: none;
+}
+
+.navlist-item {
+	float: left;
+	padding: 5px 8px;
+}
+
+#banner {
+	padding-top: 120px;
+	padding-bottom: 230px;
+}
+
+#banner .center-block {
+	width: 50%;
+	margin: 0 auto;
+}
+
+.center-block {
+	text-align: center;
+}
